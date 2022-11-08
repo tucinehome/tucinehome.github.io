@@ -1,3 +1,6 @@
+
+
+
 ========= NOTAS IMPORTANTES DE INFORMACION ===========
 
 - Disfruta de lo mejor del cine en la comodidad de tu hogar.
@@ -12,4 +15,4 @@
 * NO OLVIDAR SEGUIRNOS EN NUESTRAS REDES SOCIALES.
 * @tucinehomeoficial (instagram)
 * TuCine Home (facebook)
-* tucinehome/tucinehome.github.io
+* https://tucinehome.github.io/
