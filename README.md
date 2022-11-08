@@ -1,5 +1,5 @@
 =======================================================
-======== NOTAS IMPORTANTES DE INFORMACION ===========
+NOTAS IMPORTANTES DE INFORMACION ===========
 =======================================================
 Disfruta de lo mejor del cine en la comodidad de tu hogar.
 desacarga todas las peliculas sin limite.
