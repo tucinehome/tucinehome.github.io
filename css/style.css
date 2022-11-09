@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color: black;
+    --letter-color: #cbcbcb;
+    --background-main: #151515;
+    --letter-final: #fbb540;
+}
+/*============HEADER======================*/
+.header{
+    width: 100%;
+    background: var(--background-color);
+}
+.content_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .content_header .content_logo .logo_palomitas{
+    width: 20%;
+    height: auto;
+}
+.content_header .content_logo .logo_tucinehome{
+    width: 80%;
+    height: auto;
+} */ 
+.content_logo .logo_firts{
+    width: 80%;
+    height: auto;
+    padding-top: 30px;
+}
+/*=============MENU=======================*/
+.content_header .icon{
+    display: none;
+}
+.content_header .content_menu{
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content_menu a{
+    text-decoration: none;
+    color: var(--letter-color);
+    padding: 20px;
+}
+.content_menu a:hover{
+    color: var(--letter-final);
+}
+.content_menu a span{
+    color: var(--letter-final);
+}
+/*=========MAIN============================*/
+.main{
+    background: var(--background-main);
+    width: 100%;
+    height: auto;
+}
+.main .content_menu_mobil{
+    display: none;
+}
+.main .main_search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.main_search .search{
+    width: 40%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.main .title_main{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-shadow: #fbb540 2px 1px 20px;  
+}
+.title_main .title_h1{
+    padding-top: 100px;
+}
+/*========CATALOGO===========*/
+.content_img_catalogo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    color: var(--letter-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content_img_catalogo img{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/*=====VER MAS====*/
+.content_vermas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.content_vermas a{
+    color: var(--letter-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: #fbb540 0px 0px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*======FOOTER=====*/
+footer{
+    background: black;
+    width: 100%;
+    height: auto;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+/*=========RESPOSIVE MOVIL========== */
+/* MENU NAV IPAD */
+@media (max-width:820px){
+    .content_menu{
+        display: none;
+    }
+    .main .content_menu_mobil{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        z-index: 999;
+        overflow: auto;
+        right: 100%;
+        transition: right 0.5s;
+    }
+    .content_menu_mobil a{
+        text-decoration: none;
+        color: white;
+        font-size: 50px;
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .nav-mobil-visible{
+        right: 0 !important;
+    }
+    .content_menu_mobil span{
+        color: var(--letter-final);
+    }
+    .content_header .icon{
+        display:flex;
+        width: 100%;
+        height: auto;
+        font-size: 40px;
+        justify-content: center;
+        background: black;
+        border: none;
+        color: white;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }   
+}
+/* MENU NAV PHONE */
+@media (max-width:414px) {
+    .content_menu_mobil a{
+        font-size: 25px;
+    }
+    .content_header .icon{ 
+        font-size: 25px;
+     }
+    .content_logo .logo_firts{
+        width: 100%;
+    }
+    
+}
