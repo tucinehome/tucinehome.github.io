@@ -198,5 +198,10 @@ footer{
     .content_logo .logo_firts{
         width: 100%;
     }
-    
+    /* CATALOGO PHONE     */
+    .content_img_catalogo img{
+        margin-top: 10px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
 }
